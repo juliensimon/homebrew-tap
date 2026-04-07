@@ -4,28 +4,28 @@
 class Ccmd < Formula
   desc "Cache Commander — a TUI for browsing and managing cache directories"
   homepage "https://github.com/juliensimon/cache-commander"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/juliensimon/cache-commander/releases/download/v0.1.1/ccmd-aarch64-apple-darwin.tar.gz"
-      sha256 "7e037561082513300f118065d4de6e8b52e242c9b7fde7f36853e689a70a6d3e"
+      url "https://github.com/juliensimon/cache-commander/releases/download/v0.2.0/ccmd-aarch64-apple-darwin.tar.gz"
+      sha256 "ef7c94bd1f324b077ad3f8e1e260d93a8ae93581c6f0db22d5ef75b0a1a695b7"
     end
     on_intel do
-      url "https://github.com/juliensimon/cache-commander/releases/download/v0.1.1/ccmd-x86_64-apple-darwin.tar.gz"
-      sha256 "2397b29823ee11813d4a592cd37e89c349e051b4492a4d3161ff03202e3493b6"
+      url "https://github.com/juliensimon/cache-commander/releases/download/v0.2.0/ccmd-x86_64-apple-darwin.tar.gz"
+      sha256 "b5d4ce6fad0c1f31ec6c5f1faddc82cbfc91a4899921a02d3a00415c508fc71a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/juliensimon/cache-commander/releases/download/v0.1.1/ccmd-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "95732d49e608d7655c6eb8dca158a6eaddc4d8ea13d8c9387d7c9c02be6e7534"
+      url "https://github.com/juliensimon/cache-commander/releases/download/v0.2.0/ccmd-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "593fb9f3b397f45864f88c944fc72269cd14741cdb9e4336e7eb0a0253781324"
     end
     on_intel do
-      url "https://github.com/juliensimon/cache-commander/releases/download/v0.1.1/ccmd-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e7a93a6293973ff280bcb18fe1ca5ffe61e7a32a051c5150830383d7d703674e"
+      url "https://github.com/juliensimon/cache-commander/releases/download/v0.2.0/ccmd-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ad9cd5d07511defaf395e4eb4fc3a0728fa8d0ab0b22937bd5d353251b883403"
     end
   end
 
